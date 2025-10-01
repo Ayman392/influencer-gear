@@ -60,7 +60,7 @@ body{
     margin-right: 2rem;
 }
 /* Hide content */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 576px) {
     .bar{
         display: none;
     }
@@ -71,10 +71,7 @@ body{
 
 /* Tablet Responsive */
 @media screen and (max-width: 768px) {
-    .bar{
-        display: block;
-    }
-       .nav-title{
+    .nav-title{
         font-size: 1rem;
     }
     .menu-bar{
@@ -95,14 +92,11 @@ body{
     .nav-title,.bar,.icon{
         font-size: 1rem;
     }
-    .menu-bar{
+    .menu-bar,#search{
         display: none;
     }
     .icon{
         display: block;
         margin: 0;
-    }
-    .search{
-        display: none;
     }
 }
