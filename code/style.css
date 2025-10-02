@@ -9,6 +9,7 @@
 }
 body{
     background-color: #f7f7f4;
+    margin: 0;
 }
 /* Shared Styles */
 .header,.main,.footer{
@@ -185,6 +186,22 @@ body{
     border: none;
 }
 
+/* Footer Section */
+#footer{
+    background-color: rgba(10, 8, 38, 1);
+    text-align: center;
+    padding: 5rem 0;
+    color: white;
+}
+.footer-title{
+    font-size: 1.75rem;
+}
+.contact-app{
+    font-size: 1.75rem;
+}
+.app{
+    margin: 0 0.5rem;
+}
 
 /* Hide content */
 @media screen and (min-width: 576px) {
@@ -244,6 +261,18 @@ body{
     .feature-des{
         font-size: 0.75rem;
     }
+    #footer{
+        padding: 2rem;
+    }
+    .footer-title{
+        font-size: 1rem;
+    }
+    .footer-des,.rights{
+        font-size: 0.75rem;
+    }
+    .contact-app{
+    font-size: 1rem;
+}
 }
 
 
