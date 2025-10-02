@@ -85,7 +85,19 @@ body{
 }
 .banner-image{
     background: url('/images/Circle\ design.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shop-logo {
+    margin: 4rem 0;
+    text-align: center;
+}
+.shop-logo img{
+    margin-right: 2rem;
 } 
+
+
 /* Hide content */
 @media screen and (min-width: 576px) {
     .bar{
@@ -122,11 +134,18 @@ body{
         max-width: 100%;
         max-height: 100%;
     }
+    .shop-logo{
+        margin: auto;
+    }
+    .shop-logo img{
+        margin-right: 1.5rem;
+        width: 7%;
+    }
 }
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
     .header{
-        padding: 1rem;
+        padding: 0 1rem;
     }
     .bar{
         display: block;
@@ -164,5 +183,15 @@ body{
         max-height: 75%;
         display: block;
         margin: auto;
+    }
+    .shop-logo{
+        margin: auto;
+        max-width: calc(100% - 20px);
+    }
+    .shop-logo img{
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
+        width: 15%;
+        height: 15%;
     }
 }
